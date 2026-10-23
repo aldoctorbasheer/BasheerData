@@ -1,0 +1,16 @@
+name: data_radar_monitor
+description: تطبيق أندرويد أصلي بـ Flutter لقراءة استهلاك البيانات الحقيقي لكل تطبيق (يومي وشهري وتحميل ورفع) مباشرة من نظام الهاتف.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
